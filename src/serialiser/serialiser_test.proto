@@ -1,0 +1,6 @@
+package serialiser;
+
+message Entry {
+    required string Key = 1;
+    required string Val = 2;
+}
